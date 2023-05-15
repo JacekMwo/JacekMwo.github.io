@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktura strony html</title>
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(255, 162, 0);
+            display: inline-block;
+            width: 700px;
+            margin-top: 15px;
+        }
+
+        header p {
+            display: inline-block;
+            width: 420px;
+            margin-left: 35px;
+            margin-bottom: 40px;
+        }
+
+        section {
+            background-color: rgb(70, 153, 18);
+            display: block;
+            width: 700px;
+
+        }
+
+        h1 {
+            margin-left: 60px;
+        }
+
+        p {
+            display: inline-block;
+            width: 620px;
+            margin-left: 35px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        nav ul li:first-child {
+            background-color: blue;
+        }
+
+        nav ul li:first-child a {
+            color: white;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+
+        footer {
+            background-color: rgba(187, 189, 186, 0.998);
+            display: block;
+            width: 700px;
+            margin-top: 15px;
+        }
+
+        footer p {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .container {
+            border: 2px solid rgb(10, 3, 90);
+            /* Styl obramowania ramki */
+            padding-top: 20px;
+            width: 700px;
+            height: 1105px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul style="display: inline-block;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">O mnie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Główny tytuł strony</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo ut excepturi omnis nesciunt minima
+                neque itaque quis ea incidunt rerum, quisquam rem, reprehenderit expedita obcaecati dolorum id autem
+                iste sequi earum ipsam. Officia laboriosam pariatur minus veritatis id officiis.</p>
+        </header>
+
+        <section id="about-me">
+            <h2>O mnie</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, voluptatum, a nesciunt aut sint
+                laudantium voluptatem voluptates, error sit fugit doloremque. Harum eius vitae asperiores, dignissimos
+                cum quam dolorem, molestias enim quaerat assumenda, consequuntur neque fugiat? Veritatis libero omnis
+                temporibus exercitationem ab facilis, consectetur, debitis nobis saepe sint quam quia?</p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti totam debitis neque exercitationem
+                corporis
+                eaque cupiditate aut ipsa ratione suscipit! Minus voluptatibus incidunt exercitationem nam consequuntur
+                ea
+                ab eveniet debitis non unde architecto excepturi quasi nobis obcaecati fugit accusantium culpa iure,
+                recusandae ad fugiat. Laboriosam ipsum magni numquam vel obcaecati!</p>
+            <h3>Tu mnie znajdziesz</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos pariatur, molestias eius atque
+                sapiente
+                reprehenderit nulla velit porro quasi dicta ut non animi molestiae voluptatem. Corrupti praesentium quos
+                tempora <br><br> pariatur reiciendis debitis eius <a href="https://www.google.com">obcaecati?</a></p>
+        </section>
+
+        <footer>
+            <p>copywright by A. Kowalski</p>
+        </footer>
+    </div>
+</body>
+
+</html>
